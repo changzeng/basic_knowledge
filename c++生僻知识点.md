@@ -42,4 +42,6 @@
     - deque
     - map
 18. 堆的相关接口
-
+    - make_heap(iter.begin(), iter.end(), cmp_func)
+    - push_heap(iter.begin(), iter.end(), cmp_func)
+    - pop_heap(iter.begin(), iter.end(), cmp_func)
