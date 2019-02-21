@@ -21,9 +21,9 @@
    - const int *：常量指针，int * const：指针常量
 9. __thread关键字
 10. 空指针、野指针、悬挂指针（迷途指针）
-   - 空指针：指向NULL或nullptr，NULL与nullptr不一样(有哪些不一样？)。
-   - 野指针：未被初始化的指针。
-   - 悬挂指针（迷途指针）：指针指向的对象已经被delete。
+  - 空指针：指向NULL或nullptr，NULL与nullptr不一样(有哪些不一样？)。
+  - 野指针：未被初始化的指针。
+  - 悬挂指针（迷途指针）：指针指向的对象已经被delete。
 11. NULL与nullptr的区别
 12. c++中的锁机制
     - 锁的类型
@@ -45,3 +45,7 @@
     - make_heap(iter.begin(), iter.end(), cmp_func)
     - push_heap(iter.begin(), iter.end(), cmp_func)
     - pop_heap(iter.begin(), iter.end(), cmp_func)
+19. 子进程与父进程的关系
+    - 子进程可获得父进程的所有堆与栈的数据，因此不利于资源管理和保护
+20. \#pragma pack(N)命令的作用
+    - 指定数据对齐的方式
