@@ -36,12 +36,18 @@
 9. __thread关键字
 
 10. 空指针、野指针、悬挂指针（迷途指针）
+<<<<<<< HEAD
 
    - 空指针：指向NULL或nullptr，NULL与nullptr不一样(有哪些不一样？)。
 
    - 野指针：未被初始化的指针。
    - 悬挂指针（迷途指针）：指针指向的对象已经被delete。
 
+=======
+  - 空指针：指向NULL或nullptr，NULL与nullptr不一样(有哪些不一样？)。
+  - 野指针：未被初始化的指针。
+  - 悬挂指针（迷途指针）：指针指向的对象已经被delete。
+>>>>>>> ffcf838f1aa90a651dd7a700f2034a4e7b32ab0c
 11. NULL与nullptr的区别
 
 12. c++中的锁机制
@@ -74,6 +80,7 @@
     - make_heap(iter.begin(), iter.end(), cmp_func)
     - push_heap(iter.begin(), iter.end(), cmp_func)
     - pop_heap(iter.begin(), iter.end(), cmp_func)
+<<<<<<< HEAD
 
 19. overwrite/override/overload的区别
 
@@ -83,3 +90,9 @@
 
 20. 运算符重载和函数重载的区别
 
+=======
+19. 子进程与父进程的关系
+    - 子进程可获得父进程的所有堆与栈的数据，因此不利于资源管理和保护
+20. \#pragma pack(N)命令的作用
+    - 指定数据对齐的方式
+>>>>>>> ffcf838f1aa90a651dd7a700f2034a4e7b32ab0c
